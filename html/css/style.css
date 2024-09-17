@@ -7,7 +7,7 @@ li{
   text-decoration: none;
 }
 
-nav{
+ul{
   display: flex;
   justify-content: center;
 }
