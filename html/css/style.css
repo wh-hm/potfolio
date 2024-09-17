@@ -6,4 +6,9 @@ body{
 li{
   text-decoration: none;
 }
+
+nav{
+  display: flex;
+  justify-content: center;
+}
   
