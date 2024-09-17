@@ -22,3 +22,32 @@ h2{
 
 }
 
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+dl dt, dl dd {
+  box-sizing: border-box;
+}
+dl dt {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+  background-color: #AEDFBE;
+  border-bottom: 1px solid #999;
+}
+dl dt:last-of-type,
+dl dd:last-of-type {
+  border: none;
+}
+dl dd {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #999;
+}
