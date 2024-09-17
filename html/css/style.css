@@ -4,3 +4,8 @@ body{
   color: #000;
 }
 
+ul{
+  display: flex;
+  justify-content: center;
+}
+
